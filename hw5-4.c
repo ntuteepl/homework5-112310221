@@ -18,7 +18,4 @@ int main()
         A=360-A;
     }
     printf("%.3f",A);
-
-
-
 }
