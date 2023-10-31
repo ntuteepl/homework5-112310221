@@ -4,11 +4,11 @@
 int main()
 {
     int h,m;
-    double hA,mA,A;
-    scanf("%d,%d",&h,&m);
+    float hA,mA,A;
+    scanf("%d%d",&h,&m);
     hA=h*30.0+(30.0/60.0*m);
     mA=6.0*m;
-    if(hA>mA){
+    if(hA>=mA){
         A=hA-mA;
     }
     else if(hA<=mA){
@@ -18,4 +18,5 @@ int main()
         A=360-A;
     }
     printf("%.3f",A);
+    return 0;
 }
