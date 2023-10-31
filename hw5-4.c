@@ -4,7 +4,7 @@
 int main()
 {
     int h,m;
-    float hA,mA,A;
+    double hA,mA,A;
     scanf("%d,%d",&h,&m);
     hA=h*30.0+(30.0/60.0*m);
     mA=6.0*m;
